@@ -1,0 +1,28 @@
+<mvc:View
+    controllerName="ui5.walkthrough.controller.ListePanel"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    >
+    <Panel
+        headerText="{i18n>ListePanelTitel}"
+        class="sapUiResponsiveMargin"
+        width="auto">
+        <content>
+            <List 
+                headerText="{i18n>ListeTitel}"
+                class="sapUiResponsiveMargin"
+                width="auto"
+                items="{invoice>/Invoices}">
+                <items>
+                    <StandardListItem 
+                        title="{invoice>ProductName}"
+                        counter="{invoice>Quantity}"
+                        description="Test {parts:['invoice>ExtendedPrice','view>/currency'],type:'sap.ui.model.type.Currency',formatOptions:{parseAsString:true,showMeasure:true }}"
+
+                                            /> <!-- Warum zum **** kann ich nix hinter den String schreiben??? -->
+
+                </items>
+            </List>
+        </content>
+    </Panel>
+</mvc:View>

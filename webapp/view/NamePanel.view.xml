@@ -1,0 +1,26 @@
+<mvc:View
+    controllerName="ui5.walkthrough.controller.HalloPanel"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+	xmlns:form="sap.ui.layout.form"
+>
+    <Panel 
+        headerText="{i18n>secendPanel}"
+        class="sapUiResponsiveMargin"
+        width="auto">
+        <content>
+            <form:SimpleForm editable="true" layout="ResponsiveGridLayout">
+                <Label text="Your name" />
+                <Input
+                    value="{/recipient/name}"
+                    placeholder="Enter name"
+                    valueLiveUpdate="true"
+                    width="80%"/>
+                <FormattedText
+                    htmlText="Hello {/recipient/name}"
+                    class="sapUiSmallMargin sapThemeHighlight-asColor"/>
+            </form:SimpleForm>
+        </content>
+    </Panel>
+
+</mvc:View>
