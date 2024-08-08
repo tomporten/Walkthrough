@@ -17,9 +17,8 @@
                     <StandardListItem 
                         title="{invoice>ProductName}"
                         counter="{invoice>Quantity}"
-                        description="Test {parts:['invoice>ExtendedPrice','view>/currency'],type:'sap.ui.model.type.Currency',formatOptions:{parseAsString:true,showMeasure:true }}"
-
-                                            /> <!-- Warum zum **** kann ich nix hinter den String schreiben??? -->
+                        description="{= ${invoice>ExtendedPrice}.toFixed(2) } {view>/currency} (per item {= (${invoice>ExtendedPrice} / ${invoice>Quantity}).toFixed(2) })"
+                        /> <!-- {parts:['invoice>ExtendedPrice','view>/currency'],type:'sap.ui.model.type.Currency',formatOptions:{parseAsString:true,showMeasure:true } }  -->
 
                 </items>
             </List>
