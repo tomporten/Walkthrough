@@ -1,0 +1,63 @@
+<!-- rowHeaderPress="handleRowHeaderPress" nicht erkannt  {employee>/startDate}
+intervalHeaders="{path: 'emplyee>headers', templateShareable: false}" -->
+<!-- 2024-07-01T00:00:00.000Z -->
+<mvc:View
+    controllerName="ui5.walkthrough.controller.Calendar"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:unified="sap.ui.unified"
+>
+    <Panel>
+        <VBox class="sapUiSmallMargin">
+            <PlanningCalendar
+                id="MIBSCalender"
+                startDate="{/startDateCalendar}"
+                rows="{employee>/Employees}"
+                appointmentsVisualization="Filled"
+                appointmentSelect="handleAppointmentSelect"
+                showEmptyIntervalHeaders="false"
+                showWeekNumbers="true"
+                viewKey="Day"
+            >
+                <toolbarContent>
+                    <Title
+                        text="Ich hasse Kalender"
+                        titleStyle="H2"
+                    />
+                    <SearchField 
+                        width="30%"
+                        search=".onFilterCalendar"
+                    />
+                </toolbarContent>
+                <rows>
+                    <PlanningCalendarRow
+                        icon="{employee>namepic}"
+                        title="{employee>name}"
+                        text="{employee>namerole}"
+                        appointments="{path : 'employee>appointments', templateShareable: false}"
+                    >
+                        <customData>
+                            <core:CustomData
+                                key="emp-name"
+                                value="{employee>name}"
+                                writeToDom="true"
+                            />
+                        </customData>
+                        <appointments>
+                            <unified:CalendarAppointment
+                                startDate="{ path:'employee>start', type: 'sap.ui.model.odata.type.DateTimeOffset' }"
+                                endDate="{ path:'employee>end', type: 'sap.ui.model.odata.type.DateTimeOffset' }"
+                                icon="{employee>pic}"
+                                title="{employee>title}"
+                                text="{employee>info}"
+                                type="{employee>type}"
+                                tentative="{employee>tentative}"
+                            />
+                        </appointments>
+                    </PlanningCalendarRow>
+                </rows>
+            </PlanningCalendar>
+        </VBox>
+    </Panel>
+</mvc:View>

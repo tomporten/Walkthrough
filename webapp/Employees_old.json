@@ -1,0 +1,548 @@
+{
+    "Employees": [
+        {
+            "name": "John Miller",
+            "role": "team member",
+            "appointments": [
+                {
+                    "start": "2024-07-01T00:00:00Z",
+                    "end": "2024-07-02T20:00:00Z",
+                    "title": "Krank",
+                    "info": "eAU",
+                    "type": "Type05",
+                    "pic": "sap-icon://wounds-doc",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-08T00:00:00Z",
+                    "end": "2024-07-12T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Antrag - genehmigt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-15T00:00:00Z",
+                    "end": "2024-07-26T20:00:00Z",
+                    "title": "Schulblock",
+                    "type": "Type04",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-04T00:00:00Z",
+                    "end": "2024-07-05T20:00:00Z",
+                    "title": "Im Kundeneinsatz",
+                    "info": "Firma XY - Bonn",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T06:00:00Z",
+                    "end": "2024-07-10T16:00:00Z",
+                    "title": "IHK Abschulussprüfung",
+                    "type": "Type04",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Sarah Fischer",
+            "role": "project manager",
+            "appointments": [
+                {
+                    "start": "2024-07-03T00:00:00Z",
+                    "end": "2024-07-05T20:00:00Z",
+                    "title": "Krank",
+                    "info": "Mit AU",
+                    "type": "Type05",
+                    "pic": "sap-icon://stethoscope",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-07T00:00:00Z",
+                    "end": "2024-07-11T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Beantragt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": true
+                },
+                {
+                    "start": "2024-07-15T00:00:00Z",
+                    "end": "2024-07-19T20:00:00Z",
+                    "title": "Im Kundeneinsatz",
+                    "info": "Projekt ABC - München",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-21T00:00:00Z",
+                    "end": "2024-07-21T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-25T00:00:00Z",
+                    "end": "2024-07-26T20:00:00Z",
+                    "title": "Reise",
+                    "info": "Business-Trip nach Berlin",
+                    "type": "Type02",
+                    "pic": "sap-icon://flight",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Daniel Meier",
+            "role": "developer",
+            "appointments": [
+                {
+                    "start": "2024-07-02T00:00:00Z",
+                    "end": "2024-07-04T20:00:00Z",
+                    "title": "Krank",
+                    "info": "Ohne AU",
+                    "type": "Type05",
+                    "pic": "sap-icon://syringe",
+                    "tentative": true
+                },
+                {
+                    "start": "2024-07-07T00:00:00Z",
+                    "end": "2024-07-09T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Genehmigt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-12T00:00:00Z",
+                    "end": "2024-07-14T20:00:00Z",
+                    "title": "MIBS",
+                    "info": "Monitoring - Stuttgart",
+                    "type": "Type02",
+                    "pic": "sap-icon://it-instance",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-16T00:00:00Z",
+                    "end": "2024-07-20T20:00:00Z",
+                    "title": "Kundeneinsatz",
+                    "info": "Firma Z - Frankfurt",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-23T00:00:00Z",
+                    "end": "2024-07-23T20:00:00Z",
+                    "title": "Fakturastunden",
+                    "info": "Projekt Delta",
+                    "type": "Type01",
+                    "pic": "sap-icon://my-sales-order",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Laura Schneider",
+            "role": "consultant",
+            "appointments": [
+                {
+                    "start": "2024-07-01T00:00:00Z",
+                    "end": "2024-07-03T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-04T00:00:00Z",
+                    "end": "2024-07-06T20:00:00Z",
+                    "title": "Im Kundeneinsatz",
+                    "info": "Firma ABC - Hamburg",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T00:00:00Z",
+                    "end": "2024-07-14T20:00:00Z",
+                    "title": "Reise",
+                    "info": "Business-Trip nach London",
+                    "type": "Type02",
+                    "pic": "sap-icon://flight",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-17T00:00:00Z",
+                    "end": "2024-07-21T20:00:00Z",
+                    "title": "Krank",
+                    "info": "eAU",
+                    "type": "Type05",
+                    "pic": "sap-icon://stethoscope",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-25T00:00:00Z",
+                    "end": "2024-07-26T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Antrag - genehmigt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Markus Weber",
+            "role": "sales manager",
+            "appointments": [
+                {
+                    "start": "2024-07-02T00:00:00Z",
+                    "end": "2024-07-05T20:00:00Z",
+                    "title": "Schulblock",
+                    "type": "Type04",
+                    "pic": "sap-icon://education",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-08T00:00:00Z",
+                    "end": "2024-07-10T20:00:00Z",
+                    "title": "Im Kundeneinsatz",
+                    "info": "Firma XYZ - Düsseldorf",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-14T00:00:00Z",
+                    "end": "2024-07-14T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-19T00:00:00Z",
+                    "end": "2024-07-21T20:00:00Z",
+                    "title": "Fakturastunden",
+                    "info": "Projekt Gamma",
+                    "type": "Type01",
+                    "pic": "sap-icon://my-sales-order",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-23T00:00:00Z",
+                    "end": "2024-07-25T20:00:00Z",
+                    "title": "Krank",
+                    "info": "Mit AU",
+                    "type": "Type05",
+                    "pic": "sap-icon://syringe",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Julia Wagner",
+            "role": "marketing specialist",
+            "appointments": [
+                {
+                    "start": "2024-07-03T00:00:00Z",
+                    "end": "2024-07-04T20:00:00Z",
+                    "title": "Krank",
+                    "info": "eAU",
+                    "type": "Type05",
+                    "pic": "sap-icon://wounds-doc",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-06T00:00:00Z",
+                    "end": "2024-07-07T20:00:00Z",
+                    "title": "Schulblock",
+                    "type": "Type04",
+                    "pic": "sap-icon://education",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T00:00:00Z",
+                    "end": "2024-07-14T20:00:00Z",
+                    "title": "Reise",
+                    "info": "Business-Trip nach Paris",
+                    "type": "Type02",
+                    "pic": "sap-icon://flight",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-18T00:00:00Z",
+                    "end": "2024-07-21T20:00:00Z",
+                    "title": "Fakturastunden",
+                    "info": "Projekt Omega",
+                    "type": "Type01",
+                    "pic": "sap-icon://my-sales-order",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-24T00:00:00Z",
+                    "end": "2024-07-26T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Genehmigt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Anna Becker",
+            "role": "junior developer",
+            "appointments": [
+                {
+                    "start": "2024-07-05T00:00:00Z",
+                    "end": "2024-07-07T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Beantragt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": true
+                },
+                {
+                    "start": "2024-07-09T00:00:00Z",
+                    "end": "2024-07-11T20:00:00Z",
+                    "title": "Im Kundeneinsatz",
+                    "info": "Projekt DEF - Berlin",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-14T00:00:00Z",
+                    "end": "2024-07-14T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-18T00:00:00Z",
+                    "end": "2024-07-20T20:00:00Z",
+                    "title": "Krank",
+                    "info": "Mit AU",
+                    "type": "Type05",
+                    "pic": "sap-icon://stethoscope",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-22T00:00:00Z",
+                    "end": "2024-07-25T20:00:00Z",
+                    "title": "Reise",
+                    "info": "Business-Trip nach Madrid",
+                    "type": "Type02",
+                    "pic": "sap-icon://flight",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Paul Zimmermann",
+            "role": "senior consultant",
+            "appointments": [
+                {
+                    "start": "2024-07-02T00:00:00Z",
+                    "end": "2024-07-04T20:00:00Z",
+                    "title": "Kundeneinsatz",
+                    "info": "Firma XYZ - Köln",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-07T00:00:00Z",
+                    "end": "2024-07-08T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T00:00:00Z",
+                    "end": "2024-07-11T20:00:00Z",
+                    "title": "Fakturastunden",
+                    "info": "Projekt Alpha",
+                    "type": "Type01",
+                    "pic": "sap-icon://my-sales-order",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-15T00:00:00Z",
+                    "end": "2024-07-17T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Genehmigt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-21T00:00:00Z",
+                    "end": "2024-07-24T20:00:00Z",
+                    "title": "Krank",
+                    "info": "eAU",
+                    "type": "Type05",
+                    "pic": "sap-icon://wounds-doc",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Lisa Köhler",
+            "role": "project coordinator",
+            "appointments": [
+                {
+                    "start": "2024-07-03T00:00:00Z",
+                    "end": "2024-07-06T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Antrag - genehmigt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T00:00:00Z",
+                    "end": "2024-07-12T20:00:00Z",
+                    "title": "Im Kundeneinsatz",
+                    "info": "Projekt GHI - Stuttgart",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-15T00:00:00Z",
+                    "end": "2024-07-19T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-22T00:00:00Z",
+                    "end": "2024-07-24T20:00:00Z",
+                    "title": "Krank",
+                    "info": "Ohne AU",
+                    "type": "Type05",
+                    "pic": "sap-icon://stethoscope",
+                    "tentative": true
+                },
+                {
+                    "start": "2024-07-26T00:00:00Z",
+                    "end": "2024-07-27T20:00:00Z",
+                    "title": "Reise",
+                    "info": "Business-Trip nach Wien",
+                    "type": "Type02",
+                    "pic": "sap-icon://flight",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Michael Müller",
+            "role": "intern",
+            "appointments": [
+                {
+                    "start": "2024-07-01T00:00:00Z",
+                    "end": "2024-07-07T20:00:00Z",
+                    "title": "Schulblock",
+                    "type": "Type04",
+                    "pic": "sap-icon://education",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-05T00:00:00Z",
+                    "end": "2024-07-06T20:00:00Z",
+                    "title": "Krank",
+                    "info": "Mit AU",
+                    "type": "Type05",
+                    "pic": "sap-icon://wounds-doc",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-09T00:00:00Z",
+                    "end": "2024-07-11T20:00:00Z",
+                    "title": "Kundeneinsatz",
+                    "info": "Firma ABC - Leipzig",
+                    "type": "Type02",
+                    "pic": "sap-icon://company-view",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-13T00:00:00Z",
+                    "end": "2024-07-15T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-20T00:00:00Z",
+                    "end": "2024-07-20T20:00:00Z",
+                    "title": "IHK Abschlussprüfung",
+                    "type": "Type04",
+                    "pic": "sap-icon://education",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Claudia Schmitt",
+            "role": "HR manager",
+            "appointments": [
+                {
+                    "start": "2024-07-02T00:00:00Z",
+                    "end": "2024-07-04T20:00:00Z",
+                    "title": "Krank",
+                    "info": "Mit AU",
+                    "type": "Type05",
+                    "pic": "sap-icon://stethoscope",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-06T00:00:00Z",
+                    "end": "2024-07-07T20:00:00Z",
+                    "title": "HomeOffice",
+                    "type": "Type01",
+                    "pic": "sap-icon://home",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-09T00:00:00Z",
+                    "end": "2024-07-10T20:00:00Z",
+                    "title": "Fakturastunden",
+                    "info": "Projekt Beta",
+                    "type": "Type01",
+                    "pic": "sap-icon://my-sales-order",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-13T00:00:00Z",
+                    "end": "2024-07-16T20:00:00Z",
+                    "title": "Urlaub",
+                    "info": "Genehmigt",
+                    "type": "Type03",
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-19T00:00:00Z",
+                    "end": "2024-07-21T20:00:00Z",
+                    "title": "Reise",
+                    "info": "Business-Trip nach München",
+                    "type": "Type02",
+                    "pic": "sap-icon://flight",
+                    "tentative": false
+                }
+            ]
+        }
+    ]
+}

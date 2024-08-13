@@ -22,8 +22,9 @@
     "dependencies": {
       "minUI5Version": "1.108.0",
       "libs": {
-        "sap.ui.core": {},
-        "sap.m": {}
+				"sap.ui.unified": {},
+				"sap.ui.core": {},
+				"sap.m": {}
       }
     },
     "models": {
@@ -31,13 +32,19 @@
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
           "bundleName": "ui5.walkthrough.i18n.i18n",
-          "supportedLocales": [""],
+          "supportedLocales": [
+            ""
+          ],
           "fallbackLocale": ""
         }
       },
       "invoice": {
         "type": "sap.ui.model.json.JSONModel",
         "uri": "Invoices.json"
+      },
+      "employee": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "Employees.json"
       }
     },
     "rootView": {

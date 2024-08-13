@@ -10,15 +10,21 @@
             <Page 
                 title="{i18n>homePageTitle}">
                 <content>
+                    <!--
                     <mvc:XMLView viewName="ui5.walkthrough.view.HalloPanel"/>
                     <mvc:XMLView viewName="ui5.walkthrough.view.NamePanel"/>
+                    -->
+                    <mvc:XMLView viewName="ui5.walkthrough.view.Calendar"/>
+
                     <Button
                         id="helloDialogButton"
                         text="{i18n>openDialogButtonText}"
                         press=".onOpenDialog"
                         class="sapUiResponsiveMargin"/>
                     
+                    <!--
                     <mvc:XMLView viewName="ui5.walkthrough.view.ListePanel"/>
+                    -->
                 </content>
             </Page>
         </pages>

@@ -1,0 +1,21 @@
+<PlanningCalendar id="PC1" singleSelection="false" showIntervalHeaders="false"
+    startDate="{path: '/startDate'}" rows="{path: '/people'}" appointmentsVisualization="Filled"
+    appointmentSelect="handleAppointmentSelect" intervalSelect="handleIntervalSelect">
+    <rows>
+        <PlanningCalendarRow
+            id="PC2" icon="{pic}" title="{name}" text="{role} ({level}) "
+            key="{empid}" appointments="{path : 'appointments', templateShareable: 'true'}">
+            <appointments>
+                <unified:CalendarAppointment startDate="{start}" endDate="{end}" icon="{pic}"
+                    title="{title}" text="{info}" type="{type}" color="{color}"
+                    tentative="{tentative}">
+                </unified:CalendarAppointment>
+            </appointments>
+            <intervalHeaders>
+                <unified:CalendarAppointment startDate="{start}" endDate="{end}" icon="{pic}"
+                    title="{title}" type="{type}">
+                </unified:CalendarAppointment>
+            </intervalHeaders>
+        </PlanningCalendarRow>
+    </rows>
+</PlanningCalendar>

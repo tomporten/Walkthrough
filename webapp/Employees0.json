@@ -1,0 +1,555 @@
+{
+    "startDate": "Mon Jul 01 2024 00:00:00 GMT+0200 (Mitteleuropäische Sommerzeit)",
+    "Employees": [
+        {
+            "name": "John Miller",
+            "role": "team member",
+            "appointments": [
+                {
+                    "start": "2024-07-01",
+                    "end": "2024-07-01",
+                    "title": "Projektbesprechung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-02T11:00:00Z",
+                    "end": "2024-07-02T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Sarah Johnson",
+            "role": "project manager",
+            "appointments": [
+                {
+                    "start": "2024-07-03T14:00:00Z",
+                    "end": "2024-07-03T15:30:00Z",
+                    "title": "Kundenbesprechung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-04T09:00:00Z",
+                    "end": "2024-07-04T10:30:00Z",
+                    "title": "Budgetplanung",
+                    "info": "room 2",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Michael Brown",
+            "role": "developer",
+            "appointments": [
+                {
+                    "start": "2024-07-05T10:00:00Z",
+                    "end": "2024-07-05T11:00:00Z",
+                    "title": "Code Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-06T13:00:00Z",
+                    "end": "2024-07-06T14:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Emily Davis",
+            "role": "designer",
+            "appointments": [
+                {
+                    "start": "2024-07-07T09:30:00Z",
+                    "end": "2024-07-07T10:30:00Z",
+                    "title": "Design Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-08T11:00:00Z",
+                    "end": "2024-07-08T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "David Wilson",
+            "role": "tester",
+            "appointments": [
+                {
+                    "start": "2024-07-09T15:00:00Z",
+                    "end": "2024-07-09T16:00:00Z",
+                    "title": "Test Planung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T09:00:00Z",
+                    "end": "2024-07-10T10:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Sophia Clark",
+            "role": "HR manager",
+            "appointments": [
+                {
+                    "start": "2024-07-11T14:30:00Z",
+                    "end": "2024-07-11T15:30:00Z",
+                    "title": "Personalgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-12T10:00:00Z",
+                    "end": "2024-07-12T11:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Chris Moore",
+            "role": "consultant",
+            "appointments": [
+                {
+                    "start": "2024-07-13T09:00:00Z",
+                    "end": "2024-07-13T10:30:00Z",
+                    "title": "Beratungsgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-14T11:00:00Z",
+                    "end": "2024-07-14T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Anna White",
+            "role": "developer",
+            "appointments": [
+                {
+                    "start": "2024-07-01T09:00:00Z",
+                    "end": "2024-07-01T10:00:00Z",
+                    "title": "Code Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-02T11:00:00Z",
+                    "end": "2024-07-02T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "James King",
+            "role": "team leader",
+            "appointments": [
+                {
+                    "start": "2024-07-03T14:00:00Z",
+                    "end": "2024-07-03T15:30:00Z",
+                    "title": "Projektbesprechung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-04T09:00:00Z",
+                    "end": "2024-07-04T10:30:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Patricia Taylor",
+            "role": "designer",
+            "appointments": [
+                {
+                    "start": "2024-07-05T10:00:00Z",
+                    "end": "2024-07-05T11:00:00Z",
+                    "title": "Design Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-06T13:00:00Z",
+                    "end": "2024-07-06T14:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Robert Lee",
+            "role": "tester",
+            "appointments": [
+                {
+                    "start": "2024-07-07T09:30:00Z",
+                    "end": "2024-07-07T10:30:00Z",
+                    "title": "Test Planung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-08T11:00:00Z",
+                    "end": "2024-07-08T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Maria Harris",
+            "role": "HR manager",
+            "appointments": [
+                {
+                    "start": "2024-07-09T15:00:00Z",
+                    "end": "2024-07-09T16:00:00Z",
+                    "title": "Personalgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T09:00:00Z",
+                    "end": "2024-07-10T10:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "William Walker",
+            "role": "consultant",
+            "appointments": [
+                {
+                    "start": "2024-07-11T14:30:00Z",
+                    "end": "2024-07-11T15:30:00Z",
+                    "title": "Beratungsgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-12T10:00:00Z",
+                    "end": "2024-07-12T11:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Linda Martinez",
+            "role": "developer",
+            "appointments": [
+                {
+                    "start": "2024-07-13T09:00:00Z",
+                    "end": "2024-07-13T10:00:00Z",
+                    "title": "Code Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-14T11:00:00Z",
+                    "end": "2024-07-14T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Charles Hill",
+            "role": "team leader",
+            "appointments": [
+                {
+                    "start": "2024-07-01T09:00:00Z",
+                    "end": "2024-07-01T10:00:00Z",
+                    "title": "Projektbesprechung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-02T11:00:00Z",
+                    "end": "2024-07-02T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Elizabeth Young",
+            "role": "designer",
+            "appointments": [
+                {
+                    "start": "2024-07-03T14:00:00Z",
+                    "end": "2024-07-03T15:30:00Z",
+                    "title": "Design Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-04T09:00:00Z",
+                    "end": "2024-07-04T10:30:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Joseph Adams",
+            "role": "tester",
+            "appointments": [
+                {
+                    "start": "2024-07-05T10:00:00Z",
+                    "end": "2024-07-05T11:00:00Z",
+                    "title": "Test Planung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-06T13:00:00Z",
+                    "end": "2024-07-06T14:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Barbara Wright",
+            "role": "HR manager",
+            "appointments": [
+                {
+                    "start": "2024-07-07T09:30:00Z",
+                    "end": "2024-07-07T10:30:00Z",
+                    "title": "Personalgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-08T11:00:00Z",
+                    "end": "2024-07-08T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Christopher Garcia",
+            "role": "consultant",
+            "appointments": [
+                {
+                    "start": "2024-07-09T15:00:00Z",
+                    "end": "2024-07-09T16:00:00Z",
+                    "title": "Beratungsgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T09:00:00Z",
+                    "end": "2024-07-10T10:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Paul Lewis",
+            "role": "developer",
+            "appointments": [
+                {
+                    "start": "2024-07-11T14:30:00Z",
+                    "end": "2024-07-11T15:30:00Z",
+                    "title": "Code Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-12T10:00:00Z",
+                    "end": "2024-07-12T11:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Mark Robinson",
+            "role": "team leader",
+            "appointments": [
+                {
+                    "start": "2024-07-13T09:00:00Z",
+                    "end": "2024-07-13T10:00:00Z",
+                    "title": "Projektbesprechung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-14T11:00:00Z",
+                    "end": "2024-07-14T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Steven Turner",
+            "role": "designer",
+            "appointments": [
+                {
+                    "start": "2024-07-01T09:00:00Z",
+                    "end": "2024-07-01T10:00:00Z",
+                    "title": "Design Review",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-02T11:00:00Z",
+                    "end": "2024-07-02T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Kevin Phillips",
+            "role": "tester",
+            "appointments": [
+                {
+                    "start": "2024-07-03T14:00:00Z",
+                    "end": "2024-07-03T15:30:00Z",
+                    "title": "Test Planung",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-04T09:00:00Z",
+                    "end": "2024-07-04T10:30:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Nancy Evans",
+            "role": "HR manager",
+            "appointments": [
+                {
+                    "start": "2024-07-05T10:00:00Z",
+                    "end": "2024-07-05T11:00:00Z",
+                    "title": "Personalgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-06T13:00:00Z",
+                    "end": "2024-07-06T14:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        },
+        {
+            "name": "Sandra Scott",
+            "role": "consultant",
+            "appointments": [
+                {
+                    "start": "2024-07-07T09:30:00Z",
+                    "end": "2024-07-07T10:30:00Z",
+                    "title": "Beratungsgespräch",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-08T11:00:00Z",
+                    "end": "2024-07-08T12:00:00Z",
+                    "title": "Team meeting",
+                    "info": "room 1",
+                    "type": "Type01",
+                    "pic": "sap-icon://sap-ui5",
+                    "tentative": false
+                }
+            ]
+        }
+    ]
+}

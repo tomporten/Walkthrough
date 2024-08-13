@@ -1,0 +1,50 @@
+{
+    "Employees": [
+        {
+            "name": "John Miller",
+            "role": "team member",
+            "appointments": [
+                {
+                    "start": "2024-07-01T00:00:00Z",
+                    "end": "2024-07-02T20:00:00Z",
+                    "title": "Krank",
+                    "info": "eAU",
+                    "type": "Type05",
+                    "pic": "sap-icon://wounds-doc",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-08T00:00:00",
+                    "end": "2024-07-12T20:00:00",
+                    "title": "Urlaub",
+                    "info": "Antrag - genehmigt",
+                    "type": "Type03",                    
+                    "pic": "sap-icon://general-leave-request",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-15T00:00:00",
+                    "end": "2024-07-26T20:00:00",
+                    "title": "Schulblock",
+                    "type": "Type04",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-04T00:00:00",
+                    "end": "2024-07-05T20:00:00",
+                    "title": "Im Kundeneinsatz",
+                    "info": "Firma XY - Bonn",
+                    "type": "Type02",
+                    "tentative": false
+                },
+                {
+                    "start": "2024-07-10T06:00:00",
+                    "end": "2024-07-10T16:00:00",
+                    "title": "IHK Abschulussprüfung",
+                    "type": "Type04",
+                    "tentative": false
+                }
+            ]
+        }
+    ]
+}
